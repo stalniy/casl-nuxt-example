@@ -1,0 +1,23 @@
+{
+  "name": "nuxtt",
+  "version": "1.0.0",
+  "description": "My superior Nuxt.js project",
+  "author": "Sergii Stotskyi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@casl/ability": "^3.3.0",
+    "@casl/vue": "^0.5.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "cookieparser": "^0.1.0",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
