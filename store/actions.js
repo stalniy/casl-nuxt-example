@@ -1,7 +1,7 @@
 export default {
   nuxtServerInit({ commit }, { req }) {
     let user = null;
-    const cookie = req.headers.cookie || 'jwt_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkODZkYWE1OC1lNDY1LTQxM2EtODE0MS1iZWYxMjk3NzRiOGYiLCJleHAiOjE1NzU5ODk5ODEsImlzcyI6ImlpcyJ9.bP1uub-Cp-utrBMyWz73WiUzY5JOe-CbLbXPVAEsWtc'
+    const cookie = req.headers.cookie || 'jwt_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'
     /* istanbul ignore else */
     if (cookie) {
       const cookieparser = require('cookieparser');
